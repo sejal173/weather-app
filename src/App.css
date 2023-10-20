@@ -1,0 +1,71 @@
+body{
+    background-color: 	 #cceeff;
+}
+*{
+    margin: 0%;
+    justify-content: center;
+  
+}
+
+.container{
+
+    height: 620px;
+    width: 1000px;
+    padding: 50px;
+     background-image: url('./cloude2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+   
+}
+.flex-container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.info-box
+{
+    border: 2px solid black;
+    height: 150px;
+    width: 210px;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px; 
+}
+
+.inputbox
+{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 600px;
+    height: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   font-size: 25px;
+   font-weight: bold;
+}
+.center-containt
+{
+    display: flex;
+    justify-content: center;
+   
+}
+.space-containt
+{
+    margin: 50px;
+    
+}
+.text-center
+{
+    text-align: center;
+}
+.weather-heading
+{
+    font-size: 45px;
+}
